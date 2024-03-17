@@ -18,19 +18,17 @@ I have used Pytest for creating the tests. <br/>
 I have used Postman & swagger for testing the API's. <br/>
 
 ### Steps to run the project:
-1. Clone the project from the git repository. Even you can download the zip file from the git repository. (For your ease: I have included .env file)
-    - git clone https://github.com/Zayed-Rahat/device-tracker.git
-2. Run the following commands:
+1. Run the following commands:
     - py manage.py makemigrations
     - py manage.py migrate 
     - py manage.py createsuperuser
     - py manage.py runserver
-3. Following url for performing API testing in swagger:<br/>
+2. Following url for performing API testing in swagger:<br/>
    - url: http://127.0.0.1:8000/api/schema/swagger-ui/
 
-4. You can also run the tests using the following command:
+3. You can also run the tests using the following command:
    - pytest
-5. API documentation using the following url:
+4. API documentation using the following url:
     - url:http://127.0.0.1:8000/api/schema/redoc/
     - pdf:https://drive.google.com/file/d/1WAa0Fd6kxVJetIB1KMHzMpPNQzHc63ua/view?usp=sharing
 
